@@ -47,7 +47,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${montserrat.variable} ${alice.variable} ${sacramento.variable} ${lustria.variable} ${playfairDisplay.variable} font-montserrat antialiased`}
+        className={`${montserrat.variable} ${alice.variable} ${sacramento.variable} ${lustria.variable} ${playfairDisplay.variable} font-montserrat antialiased selection:text-white selection:bg-neutral-300`}
       >
         {children}
       </body>
