@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Montserrat, Sacramento, Alice } from "next/font/google";
-import "./globals.css";
-import Navbar from "@/sections/Navbar";
+import "@/app/globals.css";
+import Navbar from "@/components/Navbar";
 import Footer from "@/sections/Footer";
 
 const montserrat = Montserrat({
@@ -35,11 +35,7 @@ export default function RootLayout({
       <body
         className={`${montserrat.variable} ${alice.variable} ${sacramento.variable} font-montserrat antialiased`}
       >
-          <Navbar />
-        <div className="min-h-[100dvh] grid grid-rows-[1fr_auto]">
-          {children}
-          <Footer />
-        </div>
+        {children}
       </body>
     </html>
   );

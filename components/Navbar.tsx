@@ -11,7 +11,7 @@ const Navbar: FC = () => {
   return (
     <header className="sticky top-2">
       <div
-        className="flex items-center justify-end sm:hidden"
+        className="flex items-center justify-end sm:hidden relative z-10"
         onClick={() => setIsOpen(!isOpen)}
       >
         {isOpen ? (
@@ -21,7 +21,7 @@ const Navbar: FC = () => {
         )}
       </div>
       {isOpen && (
-        <div className="h-[100dvh] bg-neutral-200/60 backdrop-blur-md sticky top-0 py-[72px] flex flex-col items-center justify-center gap-24 transition">
+        <div className="h-[100dvh] bg-neutral-300/90 backdrop-blur-lg fixed w-full top-0 py-[72px] flex flex-col items-center justify-center gap-24 transition">
           {NavLinks.map((link) => (
             <Link key={link.title} href={link.href} className="text-4xl font-medium py-1 px-4 rounded-full hover:bg-neutral-300 transition">
               {link.title}
