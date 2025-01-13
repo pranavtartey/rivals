@@ -1,5 +1,11 @@
 import type { Metadata } from "next";
-import { Montserrat, Sacramento, Alice } from "next/font/google";
+import {
+  Montserrat,
+  Sacramento,
+  Alice,
+  Lustria,
+  Playfair_Display,
+} from "next/font/google";
 import "@/app/globals.css";
 
 const montserrat = Montserrat({
@@ -17,6 +23,16 @@ const alice = Alice({
   variable: "--font-alice",
   weight: "400",
 });
+const lustria = Lustria({
+  subsets: ["latin"],
+  variable: "--font-lustria",
+  weight: "400",
+});
+const playfairDisplay = Playfair_Display({
+  subsets: ["latin"],
+  variable: "--font-playfair-display",
+  weight: "variable",
+});
 
 export const metadata: Metadata = {
   title: "Rivals",
@@ -31,7 +47,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${montserrat.variable} ${alice.variable} ${sacramento.variable} font-montserrat antialiased`}
+        className={`${montserrat.variable} ${alice.variable} ${sacramento.variable} ${lustria.variable} ${playfairDisplay.variable} font-montserrat antialiased`}
       >
         {children}
       </body>

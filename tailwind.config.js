@@ -17,6 +17,12 @@ module.exports = {
         ],
         montserrat: [
           'var(--font-montserrat-sans)'
+        ],
+        playfair: [
+          'var(--font-playfair-display)'
+        ],
+        lustria: [
+          'var(--font-lustria)'
         ]
       },
       screens: {
