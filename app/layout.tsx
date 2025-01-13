@@ -1,8 +1,6 @@
 import type { Metadata } from "next";
 import { Montserrat, Sacramento, Alice } from "next/font/google";
 import "@/app/globals.css";
-import Navbar from "@/components/Navbar";
-import Footer from "@/sections/Footer";
 
 const montserrat = Montserrat({
   subsets: ["latin"],
@@ -21,8 +19,8 @@ const alice = Alice({
 });
 
 export const metadata: Metadata = {
-  title: "Pranav Tartey",
-  description: "portfolio",
+  title: "Rivals",
+  description: "Rivals Gaming Launge",
 };
 
 export default function RootLayout({
