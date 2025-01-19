@@ -29,7 +29,7 @@ const varients = {
 
 const Hero: FC = () => {
   return (
-    <div className="container">
+    <div className="container bg-yellow-100">
       <div className="py-[20dvh] sm:py-[15dvh] h-[300vh]">
         <div className="flex flex-col justify-start items-center gap-4">
           <Reward />
@@ -44,17 +44,36 @@ const Hero: FC = () => {
         </div>
         <div className="w-fit mx-auto relative">
           <div className="-inset-4 absolute max-lg:hidden">
-            <Image
-              className="absolute lg:w-32 xl:w-40 lg:-left-32 lg:-top-14 xl:-left-40 xl:-top-20 "
-              src={floatingJointPath}
-              alt="floating-joint-path"
-            />
-            {/* <Image className="absolute lg:w-32 xl:w-40 lg:-right-32 lg:-top-14 xl:-right-40 xl:-top-20 rotate-180" src={floatingJointPath} alt="floating-joint-path"/> */}
-            <Image
-              className="absolute lg:w-40 xl:w-48 lg:-right-40 lg:-top-20 xl:-right-48 xl:-top-24"
-              src={floatingJointPath_right}
-              alt="floating-joint-path"
-            />
+            <div className="absolute lg:-left-32 lg:-top-14 xl:-left-40 xl:-top-20 ">
+              <div className="absolute -top-8 -left-14 bg-neutral-100/30 backdrop-blur-xl rounded-xl border border-black w-14 h-14 flex items-center justify-center -rotate-6">
+                <Image src={floatingComputer} alt="floating-computer" width={40}/>
+              </div>
+              <div className="absolute -bottom-14 -left-8 bg-neutral-100/30 backdrop-blur-xl rounded-xl border border-black w-14 h-14 flex items-center justify-center -rotate-6">
+                <Image src={floatingVR} alt="floating-vr" width={40}/>
+              </div>
+              <Image
+                className="lg:w-32 xl:w-40"
+                src={floatingJointPath}
+                alt="floating-joint-path"
+              />
+            </div>
+            <div className="absolute lg:-right-40 lg:-top-20 xl:-right-48 xl:-top-24">
+              <div className="absolute -top-14 right-0 bg-neutral-100/30 backdrop-blur-xl rounded-xl border border-black w-14 h-14 flex items-center justify-center rotate-12">
+                <Image
+                  src={floatingDrive}
+                  alt="floating car-drive"
+                  width={40}
+                />
+              </div>
+              <div className="absolute -bottom-14 right-0 -rotate-6 border border-black rounded-xl h-14 w-14 flex items-center justify-center bg-neutral-100/30 backdrop-blur-xl">
+                <Image src={floatingBurger} alt="floating-birger" width={45} />
+              </div>
+              <Image
+                className="lg:w-40 xl:w-48"
+                src={floatingJointPath_right}
+                alt="floating-joint-path"
+              />
+            </div>
           </div>
           <motion.h2
             className="py-4 mb-4 font-playfair text-4xl sm:text-6xl text-center text-neutral-900"
