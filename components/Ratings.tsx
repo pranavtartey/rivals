@@ -23,7 +23,7 @@ const Ratings: FC = () => {
               <Image key={idx} src={starImage} alt="star-png" width={20} />
             ))}
           </div>
-          <p className="text-xs font-light">Loved by 400+ Gammers</p>
+          <p className="text-xs font-light">Loved by 400+ Gamers</p>
         </div>
       </div>
     </div>
