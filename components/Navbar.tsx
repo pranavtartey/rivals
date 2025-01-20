@@ -9,7 +9,7 @@ import { FC, useState } from "react";
 const Navbar: FC = () => {
   const [isOpen, setIsOpen] = useState(false);
   return (
-    <header className="sticky top-2 z-50">
+    <header className="fixed w-full top-2 z-50">
   <div
     className="flex items-center justify-end sm:hidden relative z-50"
     onClick={() => setIsOpen(!isOpen)}
