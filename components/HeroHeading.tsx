@@ -8,7 +8,7 @@ const varients = {
     opacity: 1,
     y: 0,
     transition: {
-      duration: 1,
+      duration: 0.6,
       staggerChildren: 0.3,
     },
   },
