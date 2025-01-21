@@ -17,7 +17,7 @@ const varients = {
 const HeroHeading: FC = () => {
   return (
     <motion.h2
-      className="py-4 mb-4 font-playfair text-4xl sm:text-6xl text-center text-neutral-900"
+      className="py-4 mb-4 font-playfair text-4xl sm:text-6xl text-center text-neutral-900 relative"
       variants={varients}
       initial="hidden"
       animate="visible"

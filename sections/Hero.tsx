@@ -15,12 +15,14 @@ import HeroHeading from "@/components/HeroHeading";
 import { IconArrowDown, IconArrowUpRight } from "@tabler/icons-react";
 import Button from "@/components/Button";
 import AnimatedHeroButton from "@/components/AnimatedHeroButton";
+import DotPattern from "@/components/ui/dot-pattern";
+import { cn } from "@/lib/utils";
 
 const Hero: FC = () => {
   return (
     <div className="container">
-      <div className="py-[20dvh] sm:py-[15dvh] h-[300vh]">
-        <div className="min-h-[100dvh] relative">
+      <div className="py-[15dvh] sm:py-[10dvh] h-[300vh]">
+        <div className="min-h-[100dvh] overflow-hidden relative ">
           <div className="flex flex-col justify-start items-center gap-4">
             <Reward />
             <Ratings />
@@ -74,7 +76,7 @@ const Hero: FC = () => {
               </div>
             </div>
             <HeroHeading />
-            <p className="text-center text-sm sm:text-base max-w-lg mx-auto">
+            <p className="text-center text-sm sm:text-base max-w-lg mx-auto relative">
               Your go-to spot for solo or group gaming. Enjoy the latest titles
               with stunning graphics on PS5, VR, PC, or the Logitech Driving
               Simulator—and refuel at our cafe for endless fun.
@@ -82,10 +84,16 @@ const Hero: FC = () => {
           </div>
           <div className="flex items-center justify-center gap-4 mt-6">
             <AnimatedHeroButton />
-            <button className="border border-black px-4 py-1 rounded-full hover:scale-105 transition">
+            <button className="border border-black px-4 py-1 rounded-full hover:scale-105 transition backdrop-blur-lg">
               Contact Us
             </button>
           </div>
+          <div className="absolute top-1/2 left-1/2 translate-x-1/2 bg-blue-500 h-[50px] w-[50px] rounded-full -z-10" />
+          <DotPattern
+            className={cn(
+              "[mask-image:radial-gradient(500px_circle_at_center,white,transparent)] -z-10"
+            )}
+          />
         </div>
       </div>
     </div>
