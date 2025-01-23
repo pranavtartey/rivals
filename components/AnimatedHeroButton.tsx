@@ -5,7 +5,7 @@ import { IconArrowDown, IconArrowUpRight } from "@tabler/icons-react";
 const AnimatedHeroButton: FC = () => {
   return (
     <motion.button
-      className="bg-black text-white px-4 py-1 rounded-full hover:bg-[linear-gradient(to_right,)] overflow-hidden flex flex-col relative"
+      className="bg-textBlack text-white px-4 py-1 rounded-full hover:bg-[linear-gradient(to_right,)] overflow-hidden flex flex-col relative"
       initial="initial"
       whileHover="hovered"
     >

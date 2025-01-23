@@ -76,7 +76,7 @@ const Hero: FC = () => {
               </div>
             </div>
             <HeroHeading />
-            <p className="text-center text-sm sm:text-base max-w-lg mx-auto relative">
+            <p className="text-center text-sm sm:text-base max-w-lg mx-auto relative text-textBlack">
               Your go-to spot for solo or group gaming. Enjoy the latest titles
               with stunning graphics on PS5, VR, PC, or the Logitech Driving
               Simulator—and refuel at our cafe for endless fun.
@@ -88,7 +88,6 @@ const Hero: FC = () => {
               Contact Us
             </button>
           </div>
-          <div className="absolute top-1/2 left-1/2 translate-x-1/2 bg-blue-500 h-[50px] w-[50px] rounded-full -z-10" />
           <DotPattern
             className={cn(
               "[mask-image:radial-gradient(500px_circle_at_center,white,transparent)] -z-10"
