@@ -77,7 +77,7 @@ const Hero: FC = () => {
   const translateZControllerTemplate = useMotionTemplate`translateZ(${translateZControllerImage}px)`;
 
   return (
-    <div className="3xl:container" ref={heroRef}>
+    <div className="" ref={heroRef}>
       <div className="h-[300vh]">
         <motion.div
           className="min-h-[100dvh] py-[15dvh] sm:py-[10dvh] overflow-hidden sticky top-0"
