@@ -31,7 +31,9 @@ module.exports = {
 				sm: '640px',
 				md: '768px',
 				lg: '1024px',
-				xl: '1280px'
+				xl: '1280px',
+				"2xl": "1440px",
+				"3xl" : "1920px"
 			},
 			container: {
 				center: true,
@@ -49,7 +51,7 @@ module.exports = {
 			},
 			colors: {
 				textBlack: "#1d1d1f",
-				backgroundConrast : "#111",
+				backgroundConrast: "#111",
 				background: 'hsl(var(--background))',
 				foreground: 'hsl(var(--foreground))',
 				card: {
