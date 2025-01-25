@@ -1,4 +1,9 @@
-export const NavLinks = [
+type NavLinkType = {
+    title: string,
+    href: string
+}
+
+export const NavLinks: NavLinkType[] = [
     {
         title: "Home",
         href: "#home"
