@@ -1,7 +1,6 @@
 "use client";
 import { USPPhrases } from "@/constants/USPPhrases";
 import { FC, useRef } from "react";
-import USPPhrase from "./USPPhrase";
 import {
   motion,
   useMotionTemplate,
