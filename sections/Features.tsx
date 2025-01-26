@@ -25,8 +25,8 @@ const Features: FC = () => {
 
   return (
     <section ref={featureRef} className="bg-textBlack overflow-hidden">
-      <div className="container">
-        <div className="py-[72px]">
+      <div className="container py-[72px]">
+        <div className="">
           <h2 className="section-heading">
             <span>Click Click</span>
             <br />

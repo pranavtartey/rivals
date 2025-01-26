@@ -30,17 +30,16 @@ const USP: FC = () => {
   return (
     <section
       ref={uspRef}
-      className="bg-black min-h-screen md:h-screen py-[72px]"
+      className="bg-black h-screen py-[72px]"
     >
       <motion.div
-        className="w-full h-full "
+        className="w-full h-full flex flex-col justify-center gap-10 md:gap-6 overflow-hidden"
         style={{
           position,
           top: 0,
         }}
       >
-        <div className="h-full flex flex-col justify-center gap-10 md:gap-6 overflow-x-hidden">
-          {USPPhrases.map(({ description, title }) => (
+        {USPPhrases.map(({ description, title }) => (
             <div className="">
               <motion.h2
                 className="text-neutral-400 font-montserrat text-4xl text-center font-semibold tracking-tight sm:tracking-wide sm:leading-relaxed px-4"
@@ -52,7 +51,7 @@ const USP: FC = () => {
                 {title}
               </motion.h2>
               <motion.p
-                className="text-neutral-500 text-center sm:max-w-sm md:max-w-lg mx-auto sm:text-lg px-4"
+                className="text-neutral-500 text-center sm:max-w-sm lg:max-w-lg mx-auto sm:text-lg px-4"
                 style={{
                   opacity: descriptionOpacity,
                   transform: descriptionTranslateTemplate,
@@ -62,7 +61,6 @@ const USP: FC = () => {
               </motion.p>
             </div>
           ))}
-        </div>
       </motion.div>
     </section>
   );
