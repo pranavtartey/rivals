@@ -111,7 +111,7 @@ const Hero: FC = () => {
                     scale,
                   }}
                 >
-                  <div className="flex items-center">
+                  <div className="flex items-center backdrop-blur-xl">
                     <div className="">
                       <p className="bg-[#4322FF] text-white rounded-full w-5 text-sm text-center inline-block">
                         A
