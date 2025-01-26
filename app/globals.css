@@ -65,3 +65,11 @@
   }
 }
 
+@layer components{
+  .section-heading {
+    @apply text-center text-5xl sm:text-6xl font-semibold bg-gradient-to-t from-neutral-500 to-neutral-300 bg-clip-text text-transparent
+  }
+  .section-description {
+    @apply text-center text-lg text-neutral-400 sm:text-xl sm:max-w-lg mx-auto mt-4 sm:mt-6 sm:tracking-wide
+  }
+}

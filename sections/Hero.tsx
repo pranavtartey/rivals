@@ -52,7 +52,7 @@ const Hero: FC = () => {
 
   const { scrollYProgress } = useScroll({
     target: heroRef,
-    offset: ["0.1 start", "end end"],
+    offset: ["start start", "end end"],
   });
 
   const opacity = useTransform(scrollYProgress, [0, 0.3], [1, 0]);
