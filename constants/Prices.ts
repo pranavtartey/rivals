@@ -1,6 +1,7 @@
 type Price = {
     price: string,
     duration: string,
+    popular: boolean,
     features: string[]
 }
 
@@ -8,6 +9,7 @@ export const Prices: Price[] = [
     {
         price: "500",
         duration: "1 Hour",
+        popular: false,
         features: [
             "Best for solo/Dual",
             "Own a platform/sofa",
@@ -17,6 +19,7 @@ export const Prices: Price[] = [
     {
         price: "1000",
         duration: "3 Hours",
+        popular: true,
         features: [
             "Best for group",
             "Free switches",
@@ -28,6 +31,7 @@ export const Prices: Price[] = [
     {
         price: "2500",
         duration: "10 Hours",
+        popular: false,
         features: [
             "Loved for gamers",
             "Pay once, visit any time (valid for spicified time)",
