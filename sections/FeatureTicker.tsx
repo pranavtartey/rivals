@@ -37,121 +37,121 @@ const FeatureTicker: FC = () => {
               src={battlefield}
               alt="battlefield"
               width={500}
-              className="w-60 rounded-2xl"
+              className="w-48 sm:w-60 rounded-2xl"
             />
             <Image
               src={wukong}
               alt="wukong"
               width={500}
-              className="w-60 rounded-2xl"
+              className="w-48 sm:w-60 rounded-2xl"
             />
             <Image
               src={guardiansOfGalaxy}
               alt="guardiansOfGalaxy"
               width={500}
-              className="w-60 rounded-2xl"
+              className="w-48 sm:w-60 rounded-2xl"
             />
             <Image
               src={hogwartsLegecy}
               alt="hogwartsLegecy"
               width={500}
-              className="w-60 rounded-2xl"
+              className="w-48 sm:w-60 rounded-2xl"
             />
             <Image
               src={spiderMan2}
               alt="spiderMan2"
               width={500}
-              className="w-52 rounded-2xl"
+              className="w-40 sm:w-52 rounded-2xl"
             />
             <Image
               src={kidsGame}
               alt="kidsGame"
               width={500}
-              className="w-60 rounded-2xl"
+              className="w-48 sm:w-60 rounded-2xl"
             />
             <Image
               src={lastOfUs}
               alt="lastOfUs"
               width={500}
-              className="w-52 rounded-2xl"
+              className="w-40 sm:w-52 rounded-2xl"
             />
             <Image
               src={residentEvilVillage}
               alt="residentEvilVillage"
               width={500}
-              className="w-60 rounded-2xl"
+              className="w-48 sm:w-60 rounded-2xl"
             />
             <Image
               src={milesMoreles}
               alt="milesMoreles"
               width={500}
-              className="w-56 rounded-2xl"
+              className="w-48 sm:w-56 rounded-2xl"
             />
             <Image
               src={tekken8}
               alt="tekken8"
               width={500}
-              className="w-60 rounded-2xl"
+              className="w-48 sm:w-60 rounded-2xl"
             />
             <Image
               src={battlefield}
               alt="battlefield"
               width={500}
-              className="w-60 rounded-2xl"
+              className="w-48 sm:w-60 rounded-2xl"
             />
             <Image
               src={wukong}
               alt="wukong"
               width={500}
-              className="w-60 rounded-2xl"
+              className="w-48 sm:w-60 rounded-2xl"
             />
             <Image
               src={guardiansOfGalaxy}
               alt="guardiansOfGalaxy"
               width={500}
-              className="w-60 rounded-2xl"
+              className="w-48 sm:w-60 rounded-2xl"
             />
             <Image
               src={hogwartsLegecy}
               alt="hogwartsLegecy"
               width={500}
-              className="w-60 rounded-2xl"
+              className="w-48 sm:w-60 rounded-2xl"
             />
             <Image
               src={kidsGame}
               alt="kidsGame"
               width={500}
-              className="w-60 rounded-2xl"
+              className="w-48 sm:w-60 rounded-2xl"
             />
             <Image
               src={lastOfUs}
               alt="lastOfUs"
               width={500}
-              className="w-52 rounded-2xl"
+              className="w-40 sm:w-52 rounded-2xl"
             />
             <Image
               src={residentEvilVillage}
               alt="residentEvilVillage"
               width={500}
-              className="w-60 rounded-2xl"
+              className="w-48 sm:w-60 rounded-2xl"
             />
             <Image
               src={spiderMan2}
               alt="spiderMan2"
               width={500}
-              className="w-52 rounded-2xl"
+              className="w-40 sm:w-52 rounded-2xl"
             />
             <Image
               src={milesMoreles}
               alt="milesMoreles"
               width={500}
-              className="w-56 rounded-2xl"
+              className="w-52 sm:w-56 rounded-2xl"
             />
             <Image
               src={tekken8}
               alt="tekken8"
               width={500}
-              className="w-60 rounded-2xl"
+              className="w-48 sm:w-60 rounded-2xl"
             />
           </motion.div>
         </div>
