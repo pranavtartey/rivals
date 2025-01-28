@@ -1,9 +1,10 @@
-import Fake from "@/sections/Fake";
 import Features from "@/sections/Features";
 import FeatureTicker from "@/sections/FeatureTicker";
 import Hero from "@/sections/Hero";
 import Pricing from "@/sections/Pricing";
 import Services from "@/sections/Services";
+import Socials from "@/sections/Socials";
+import { Testimonials } from "@/sections/Testimonials";
 import USP from "@/sections/USP";
 
 export default function Home() {
@@ -16,7 +17,8 @@ export default function Home() {
       <FeatureTicker />
       <Services />
       <Pricing />
-      <Fake />
+      <Testimonials />
+      <Socials />
       {/* <Footer /> */}
     </main>
   );
