@@ -74,6 +74,7 @@ const Navbar: FC = () => {
                 >
                   {NavLinks.map(({ href, title }) => (
                     <a
+                      key={title}
                       href={href}
                       className="text-neutral-300 block text-center text-lg my-4 hover:text-white"
                       onClick={() => setIsOpen(false)}
