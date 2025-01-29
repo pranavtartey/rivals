@@ -225,7 +225,7 @@ const Hero: FC = () => {
                   ))}
                 </motion.h2>
                 <motion.p
-                  className="text-center text-sm sm:text-base max-w-lg mx-auto relative text-textBlack"
+                  className="text-center text-sm sm:text-base max-w-lg mx-auto px-4 relative text-textBlack"
                   style={{
                     opacity,
                     scale,
