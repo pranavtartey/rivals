@@ -23,7 +23,7 @@ Website visitor
   `;
 
   return (
-    <footer className="bg-black text-neutral-300">
+    <footer className="bg-black text-neutral-300" id="contact-us">
       <div className="container py-[72px]">
         {/* <p className="text-center text-lg text-neutral-400">
           That&apos;s it folks!!
@@ -56,7 +56,13 @@ Website visitor
       <hr />
       <p className="text-center py-4">
         Made with ❤️ by&nbsp;
-        <a target="_blank" href="https://www.pranavtartey.com/" className="underline underline-offset-2">Pranav Tartey</a>
+        <a
+          target="_blank"
+          href="https://www.pranavtartey.com/"
+          className="underline underline-offset-2"
+        >
+          Pranav Tartey
+        </a>
       </p>
     </footer>
   );

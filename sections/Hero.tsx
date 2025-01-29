@@ -282,9 +282,14 @@ const Hero: FC = () => {
                     scale,
                   }}
                 >
-                  <button className="border border-black px-4 py-1 rounded-full hover:scale-105 transition backdrop-blur-lg">
-                    Contact Us
-                  </button>
+                  <a href="#contact-us">
+                    <button
+                      className="border border-black px-4 py-1 rounded-full hover:scale-105 transition backdrop-blur-lg"
+                      
+                    >
+                      Contact Us
+                    </button>
+                  </a>
                 </motion.div>
               </div>
             </div>
