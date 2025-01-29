@@ -4,7 +4,7 @@ import { FC } from "react";
 
 const ServicesOffer: FC = () => {
   return (
-    <section className="bg-black py-[72px]">
+    <section className="bg-black py-[72px]" id="services">
       <div className="container">
         <h2 className="section-heading">Services</h2>
         <p className="section-description">

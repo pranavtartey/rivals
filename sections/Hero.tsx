@@ -83,7 +83,7 @@ const Hero: FC = () => {
   const translateZControllerTemplate = useMotionTemplate`translateY(${controllerImageTransition}%) translateZ(${translateZControllerImage}px)`;
 
   return (
-    <div className="scroll-smooth" ref={heroRef}>
+    <div className="scroll-smooth" ref={heroRef} id="home">
       <div className="h-[300vh]">
         <motion.div
           className="h-screen overflow-hidden sticky top-0"

@@ -14,6 +14,6 @@ export const NavLinks: NavLinkType[] = [
     },
     {
         title: "Contact",
-        href: "#contact"
+        href: "#contact-us"
     },
 ]
