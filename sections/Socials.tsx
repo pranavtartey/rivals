@@ -14,10 +14,7 @@ const Socials: FC = () => {
               Let's Connect
             </h2>
             <div className="w-fit max-sm:mx-auto relative">
-              <iframe
-                src="https://www.youtube.com/embed/EThk_qC9fEM"
-                title="Rivals Opening"
-              ></iframe>
+            <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="Rick Astley - Never Gonna Give You Up (Official Music Video)" ></iframe>
             </div>
           </div>
         </div>
