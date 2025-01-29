@@ -4,10 +4,10 @@ import { IconPhoneRinging, IconMail } from "@tabler/icons-react";
 import { FC } from "react";
 
 const Footer: FC = () => {
-  const email = "sachin_meghani@rivals.co.in";
+  const email = "pranavtartey@gmail.com";
   const subject = "Impressive Lounge";
   const body = `
-    Dear Rivals Team,
+    Dear Pranav Team,
 
 I hope this message finds you well!
 
@@ -37,19 +37,17 @@ Website visitor
             >
               <IconMail />
             </a>
-            <a href="tel:9889426501">
+            <a href="tel:7651812618">
               <IconPhoneRinging />
             </a>
           </div>
           <p className="text-center text-xl my-4">Address</p>
           <p className="text-center text-sm tracking-wide text-neutral-400 max-w-lg mx-auto">
-            Ground Floor, Radha Tower, Allahabad Bank Chauraha, below Grand Slam
-            Gym, next to Patanjli Store, Civil Lines, Jhansi, Uttar Pradesh
-            284001
+            Maseeha Gunj Jhansi, India
           </p>
           <p className="text-center text-xl my-4">Phone No.</p>
           <div className="w-fit mx-auto">
-            <a href="tel:9889426501">+91 9889426501</a>
+            <a href="tel:7651812618">+91 7651812618</a>
           </div>
         </div>
       </div>
