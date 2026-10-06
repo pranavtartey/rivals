@@ -9,9 +9,8 @@ export function GET(request: NextRequest) {
     `[health] hit by "${request.headers.get("user-agent") ?? "unknown"}"`
   );
 
-  // TEMP: always unhealthy, to test the deploy rollback. Revert this commit afterwards.
-  return NextResponse.json(
-    { status: "unhealthy", uptimeSeconds: Math.round(process.uptime()) },
-    { status: 503 }
-  );
+  return NextResponse.json({
+    status: "ok",
+    uptimeSeconds: Math.round(process.uptime()),
+  });
 }
