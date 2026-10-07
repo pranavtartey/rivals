@@ -7,7 +7,7 @@ type Price = {
 
 export const Prices: Price[] = [
     {
-        price: "500",
+        price: "505",
         duration: "1 Hour",
         popular: false,
         features: [
